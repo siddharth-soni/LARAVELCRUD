@@ -1,0 +1,83 @@
+[
+    {
+      "name": "John Doe",
+      "email": "john.doe@example.com",
+      "password": "password123",
+      "city": "New York",
+      "address": "123 Elm Street",
+      "phone": "123-456-7890"
+    },
+    {
+      "name": "Jane Smith",
+      "email": "jane.smith@example.com",
+      "password": "securepass",
+      "city": "Los Angeles",
+      "address": "456 Maple Avenue",
+      "phone": "987-654-3210"
+    },
+    {
+      "name": "Mike Johnson",
+      "email": "mike.johnson@example.com",
+      "password": "mike2024",
+      "city": "Chicago",
+      "address": "789 Oak Street",
+      "phone": "456-123-7890"
+    },
+    {
+      "name": "Emily Davis",
+      "email": "emily.davis@example.com",
+      "password": "emilyrocks",
+      "city": "Houston",
+      "address": "101 Pine Lane",
+      "phone": "321-654-0987"
+    },
+    {
+      "name": "Chris Brown",
+      "email": "chris.brown@example.com",
+      "password": "chris123",
+      "city": "Phoenix",
+      "address": "202 Birch Road",
+      "phone": "654-987-1234"
+    },
+    {
+      "name": "Sara Wilson",
+      "email": "sara.wilson@example.com",
+      "password": "sara2024",
+      "city": "San Diego",
+      "address": "303 Cedar Street",
+      "phone": "111-222-3333"
+    },
+    {
+      "name": "David Martinez",
+      "email": "david.martinez@example.com",
+      "password": "davidstrong",
+      "city": "Dallas",
+      "address": "404 Redwood Drive",
+      "phone": "444-555-6666"
+    },
+    {
+      "name": "Sophia Garcia",
+      "email": "sophia.garcia@example.com",
+      "password": "sophiapass",
+      "city": "San Francisco",
+      "address": "505 Aspen Blvd",
+      "phone": "777-888-9999"
+    },
+    {
+      "name": "James Taylor",
+      "email": "james.taylor@example.com",
+      "password": "jamest2024",
+      "city": "Seattle",
+      "address": "606 Willow Lane",
+      "phone": "123-456-0000"
+    },
+    {
+      "name": "Olivia Anderson",
+      "email": "olivia.anderson@example.com",
+      "password": "olivia2024",
+      "city": "Boston",
+      "address": "707 Magnolia Court",
+      "phone": "987-654-1111"
+    }
+  ]
+  
