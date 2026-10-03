@@ -5,9 +5,7 @@
 use App\Http\Controllers\employeecontroller;
 use Illuminate\Support\Facades\Route;
 
-// Route::get('/', function () {
-//     return view('welcome');
-// });
+Route::redirect('/', '/employee');
 
 
 Route::controller(employeecontroller::class)->group(function () {
@@ -37,5 +35,4 @@ Route::controller(employeecontroller::class)->group(function () {
 // ROUTE TO ADD VIEW in adduser
 
 Route::view('newuser', '/addnewuser');
-
 
