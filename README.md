@@ -27,6 +27,24 @@ Displays employee records with actions to add, view, edit, and delete users.
 
 ![Employee CRUD list](screenshots/employee-list.png)
 
+### Add employee
+
+Registration form for creating a new employee record.
+
+![Add employee form](screenshots/add-employee.png)
+
+### Employee details
+
+Detailed view of a selected employee.
+
+![Employee details](screenshots/employee-details.png)
+
+### Edit employee
+
+Form for updating an existing employee's information.
+
+![Edit employee form](screenshots/edit-employee.png)
+
 ## Installation
 
 1. Clone the repository and enter the project directory.
