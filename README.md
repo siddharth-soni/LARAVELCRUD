@@ -9,26 +9,23 @@ A simple employee management application built with Laravel 11. It demonstrates 
 - View an individual employee's details
 - Edit employee information
 - Delete an employee record
-- Local SQLite database with sample employee data
+- MySQL database with sample employee data
 - Bootstrap 5 responsive interface
 
 ## Technology
 
 - PHP 8.2 or later
 - Laravel 11
-- SQLite
+- MySQL
 - Bootstrap 5
 
-## Screens
+## Screenshots
 
-| Screen | Description |
-| --- | --- |
-| Employee list | Displays employees with View, Edit, and Delete actions. |
-| Add employee | Form for creating a new employee record. |
-| Employee details | Shows the information for one employee. |
-| Edit employee | Form for updating an existing employee. |
+### Employee list
 
-> Add your image files to `screenshots/` (for example, `employee-list.png`) and replace this note with Markdown image links before publishing.
+Displays employee records with actions to add, view, edit, and delete users.
+
+![Employee CRUD list](screenshots/employee-list.png)
 
 ## Installation
 
@@ -52,17 +49,21 @@ A simple employee management application built with Laravel 11. It demonstrates 
    php artisan key:generate
    ```
 
-4. Configure SQLite in `.env`.
+4. Start the MySQL server in MAMP and configure the database connection in `.env`. MAMP's default MySQL connection uses port `8889` and the `root` / `root` credentials.
 
    ```env
-   DB_CONNECTION=sqlite
-   DB_DATABASE=/absolute/path/to/LARAVELCRUD/database/database.sqlite
+   DB_CONNECTION=mysql
+   DB_HOST=127.0.0.1
+   DB_PORT=8889
+   DB_DATABASE=laravelcrud
+   DB_USERNAME=root
+   DB_PASSWORD=root
    ```
 
-5. Create the database file, run migrations, and add sample employees.
+5. Create the database, run migrations, and add sample employees.
 
    ```bash
-   touch database/database.sqlite
+   /Applications/MAMP/Library/bin/mysql80/bin/mysql -h 127.0.0.1 -P 8889 -u root -proot -e "CREATE DATABASE IF NOT EXISTS laravelcrud"
    php artisan migrate --seed
    ```
 
